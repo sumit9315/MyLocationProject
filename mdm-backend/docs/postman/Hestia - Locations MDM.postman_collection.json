@@ -1,0 +1,2745 @@
+{
+	"info": {
+		"_postman_id": "2ea5bb1d-fce8-4a5f-bf2a-0081770bfc20",
+		"name": "Hestia - Locations MDM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Locations",
+			"item": [
+				{
+					"name": "Search",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Base",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Base",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Base"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Base, BaseNodeId=100000006",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Base&baseNodeId=100000006",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Base"
+								},
+								{
+									"key": "baseNodeId",
+									"value": "100000006"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Physical",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Physical",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Physical"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Physical, BaseNodeId=100000007",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Physical&baseNodeId=100000007",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Physical"
+								},
+								{
+									"key": "baseNodeId",
+									"value": "100000007"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Management",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Management",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Management"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Management, BaseNodeId=100000007",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Management&baseNodeId=100000007",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Management"
+								},
+								{
+									"key": "baseNodeId",
+									"value": "100000007"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search - Management, BaseNodeId=100000008",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/hierarchy?hierarchyType=Management&baseNodeId=100000008",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"hierarchy"
+							],
+							"query": [
+								{
+									"key": "hierarchyType",
+									"value": "Management"
+								},
+								{
+									"key": "baseNodeId",
+									"value": "100000008"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login - regular user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "91525e59-79c2-472b-a597-aeae21a32918",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);\r",
+									"postman.setEnvironmentVariable(\"access_token\", jsonData.token);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"user\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login  - admin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7b3ffa58-7634-4c77-abeb-01bef16f47fc",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);\r",
+									"postman.setEnvironmentVariable(\"access_token\", jsonData.token);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Dashboard",
+			"item": [
+				{
+					"name": "Statistics",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/dashboardInfo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dashboardInfo"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Me",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/me",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Campus",
+			"item": [
+				{
+					"name": "Get Campus by Id - CA00000100",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Campus by Id - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/campuses/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus - CA00000100",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"openForBusinessFlag\": true,\r\n  \"openForDisclosureFlag\": true,\r\n  \"phoneNumbers\": [\r\n    \"313-599-4676\",\r\n    \"503-589-7397\"\r\n  ],\r\n  \"timeZoneIdentifier\": \"UTC\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus - Bad Request",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"openForBusinessFlag\": true,\r\n  \"openForDisclosureFlag\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Campus - CA00000100 (Flags)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"openForBusinessFlag\": false,\r\n  \"openForDisclosureFlag\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Campus - CA00000100 (Phones/TimeZone)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"phoneNumbers\": [\r\n    \"123-599-4676\",\r\n    \"456-589-7397\"\r\n  ],\r\n  \"timeZoneIdentifier\": \"EEST\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Events (applyToChildren = false)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"applyToChildren\": false,\r\n  \"events\": [\r\n    {\r\n      \"eventName\": \"New Year Event\",\r\n      \"eventStart\": {\r\n        \"month\": 11,\r\n        \"dayOfMonth\": 31,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 0,\r\n        \"dayOfMonth\": 1,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 18,\r\n        \"minute\": 45\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 23,\r\n        \"minute\": 30\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"All Day\",\r\n      \"daylightSavings\": true\r\n    },\r\n    {\r\n      \"eventName\": \"Black Friday\",\r\n      \"eventStart\": {\r\n        \"month\": 10,\r\n        \"dayOfMonth\": null,\r\n        \"dayOfWeek\": 5,\r\n        \"ordinalInMonth\": 4\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 11,\r\n        \"dayOfMonth\": null,\r\n        \"dayOfWeek\": 1,\r\n        \"ordinalInMonth\": 1\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 10,\r\n        \"minute\": 0\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 19,\r\n        \"minute\": 0\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"Few days\",\r\n      \"daylightSavings\": false\r\n    }\r\n  ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/events",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Events (applyToChildren = true)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"applyToChildren\": true,\r\n  \"events\": [\r\n    {\r\n      \"eventName\": \"New Year Event\",\r\n      \"eventStart\": {\r\n        \"month\": 11,\r\n        \"dayOfMonth\": 31,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 0,\r\n        \"dayOfMonth\": 1,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 18,\r\n        \"minute\": 45\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 23,\r\n        \"minute\": 30\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"All Day\",\r\n      \"daylightSavings\": true\r\n    },\r\n    {\r\n      \"eventName\": \"Fale Event\",\r\n      \"eventStart\": {\r\n        \"month\": 2,\r\n        \"dayOfMonth\": 3,\r\n        \"dayOfWeek\": 4,\r\n        \"ordinalInMonth\": 4\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 1,\r\n        \"dayOfMonth\": 2,\r\n        \"dayOfWeek\": 3,\r\n        \"ordinalInMonth\": 4\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 1,\r\n        \"minute\": 2\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 3,\r\n        \"minute\": 4\r\n      },\r\n      \"frequency\": \"Daily\",\r\n      \"eventTime\": \"One hour\",\r\n      \"daylightSavings\": false\r\n    }\r\n  ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/events",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Events - Bad Request",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"applyToChildren\": true,\r\n  \"events\": [\r\n    {\r\n      \"eventName\": \"New Year Event\",\r\n      \"eventStart\": {\r\n        \"month\": 12,\r\n        \"dayOfMonth\": 31,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"All Day\",\r\n      \"daylightSavings\": true\r\n    }\r\n  ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/events",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Campus Role - TestRole01",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roleName\": \"TestRole01\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/roles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Campus Role - TestRole02",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roleName\": \"TestRole02\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/roles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Campus Role - testRole02 (case insensitive check)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roleName\": \"testRole02\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/roles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Campus Roles",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/roles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Campus Region by Id - RG0000006",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/regions/RG0000006",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"regions",
+								"RG0000006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Campus Region by Id - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/regions/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"regions",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Region - RG0000006",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"openForBusinessFlag\": true,\r\n  \"openForDisclosureFlag\": true,\r\n  \"phoneNumbers\": [\r\n    \"313-599-4676\",\r\n    \"989-581-4214\",\r\n    \"503-589-7397\"\r\n  ],\r\n  \"longitude\": \"50.470121142978506\",\r\n  \"latitude\": \"30.604399537440685\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/regions/RG0000006",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"regions",
+								"RG0000006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Region - Bad Request",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"longitude\": \"50.470121142978506\",\r\n  \"latitude\": \"30.604399537440685\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/regions/RG0000006",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"regions",
+								"RG0000006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Campus Region - RG0000006 (Long/Lat)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"longitude\": \"51.470121142978506\",\r\n  \"latitude\": \"31.604399537440685\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/regions/RG0000006",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"regions",
+								"RG0000006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Campus Region - RG0000006 (Flags/Phones)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"openForBusinessFlag\": false,\r\n  \"openForDisclosureFlag\": false,\r\n  \"phoneNumbers\": [\r\n    \"111-581-4214\",\r\n    \"222-589-7397\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/regions/RG0000006",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"regions",
+								"RG0000006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Campus Contacts (applyToChildren = false)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"2007202\",\r\n    \"1026258\"\r\n  ],\r\n  \"applyToChildren\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/contactRoles/assign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"contactRoles",
+								"assign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Campus Contacts (applyToChildren = true)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"1012842\"\r\n  ],\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/contactRoles/assign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"contactRoles",
+								"assign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Campus Contacts - Bad Request",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n  ],\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/contactRoles/assign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"contactRoles",
+								"assign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unassign Campus Contacts (applyToChildren = false)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"1026258\"\r\n  ],\r\n  \"applyToChildren\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/contactRoles/unassign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"contactRoles",
+								"unassign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unassign Campus Contacts (applyToChildren = true)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"2007202\",\r\n    \"1026258\"\r\n  ],\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/contactRoles/unassign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"contactRoles",
+								"unassign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unassign Campus Contacts - Bad Request",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/campuses/CA00000100/contactRoles/unassign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campuses",
+								"CA00000100",
+								"contactRoles",
+								"unassign"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Child Location",
+			"item": [
+				{
+					"name": "Search Child Locations - default",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Child Locations - location 'Phoenix'",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations?location=Phoenix",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "Phoenix"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Child Locations - location 'Phoenix' paging",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations?location=Phoenix&page=2&pageSize=10",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "Phoenix"
+								},
+								{
+									"key": "page",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Child Locations - all criteria",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations?location=Phoenix&address=Buckeye&state=AZ&zipCode=85004&city=Phoenix&lobCc=TRAINEES&district=Southwest&region=&locationType=",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "Phoenix"
+								},
+								{
+									"key": "address",
+									"value": "Buckeye"
+								},
+								{
+									"key": "state",
+									"value": "AZ"
+								},
+								{
+									"key": "zipCode",
+									"value": "85004"
+								},
+								{
+									"key": "city",
+									"value": "Phoenix"
+								},
+								{
+									"key": "lobCc",
+									"value": "TRAINEES"
+								},
+								{
+									"key": "district",
+									"value": "Southwest"
+								},
+								{
+									"key": "region",
+									"value": ""
+								},
+								{
+									"key": "locationType",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location by Id - CH123452",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location by Id - CO00000100",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/CO00000100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CO00000100"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location by Id - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location - CH123452 (full)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"address\": {\r\n    \"addressLine1\": \"[upd] 111 E Buckeye Road\",\r\n    \"addressLine2\": \"[upd] Suite 2\",\r\n    \"addressLine3\": \"[upd] \",\r\n    \"cityName\": \"[upd] Phoenix\",\r\n    \"state\": \"[upd] AZ\",\r\n    \"countryName\": \"[upd] United States\",\r\n    \"postalCodePrimary\": \"12345\",\r\n    \"postalCodeExtn\": \"6789\",\r\n    \"altShiptoAddressLine1\": \"[upd] 111 E Buckeye Road\",\r\n    \"altShiptoAddressLine2\": \"[upd] Suite 2\",\r\n    \"altShiptoAddressLine3\": \"[upd] \",\r\n    \"altShiptoCityName\": \"[upd] Phoenix\",\r\n    \"altShiptoState\": \"[upd] AZ\",\r\n    \"altShiptoCountryName\": \"[upd] United States\",\r\n    \"altShiptoPostalCode\": \"54321\",\r\n    \"altShiptoPostalCodeExtn\": \"9876\"\r\n  },\r\n  \"associationName\": \"[upd] associationName\",\r\n  \"productOffering\": [\r\n    \"[upd] PO 01\",\r\n    \"[upd] PO 02\"\r\n  ],\r\n  \"longitude\": \"51.470121142978506\",\r\n  \"latitude\": \"31.604399537440685\",\r\n  \"phoneNumbers\": [\r\n    \"123-599-4676\",\r\n    \"456-589-7397\"\r\n  ],\r\n  \"regionId\": \"RG0000004\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location - CH123452 (Address)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"address\": {\r\n    \"addressLine1\": \"[upd] 111 E Buckeye Road\",\r\n    \"addressLine2\": \"[upd] Suite 2\",\r\n    \"addressLine3\": \"[upd] \",\r\n    \"cityName\": \"[upd] Phoenix\",\r\n    \"state\": \"[upd] AZ\",\r\n    \"countryName\": \"[upd] United States\",\r\n    \"postalCodePrimary\": \"12345\",\r\n    \"postalCodeExtn\": \"6789\",\r\n    \"altShiptoAddressLine1\": \"[upd] 111 E Buckeye Road\",\r\n    \"altShiptoAddressLine2\": \"[upd] Suite 2\",\r\n    \"altShiptoAddressLine3\": \"[upd] \",\r\n    \"altShiptoCityName\": \"[upd] Phoenix\",\r\n    \"altShiptoState\": \"[upd] AZ\",\r\n    \"altShiptoCountryName\": \"[upd] United States\",\r\n    \"altShiptoPostalCode\": \"54321\",\r\n    \"altShiptoPostalCodeExtn\": \"9876\"\r\n  }\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location - CH123452 (Long/Lat/Phones)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"longitude\": \"51.470121142978506\",\r\n  \"latitude\": \"31.604399537440685\",\r\n  \"phoneNumbers\": [\r\n    \"123-599-4676\",\r\n    \"456-589-7397\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"longitude\": \"51.470121142978506\",\r\n  \"latitude\": \"31.604399537440685\",\r\n  \"phoneNumbers\": [\r\n    \"123-599-4676\",\r\n    \"456-589-7397\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Child Location by Id - CH123453",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/CH123453",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123453"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Child Location by Id - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Deleted Child Location by Id - CH123453",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/CH123453",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123453"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location Contacts - CH123452",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/contactRoles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"contactRoles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location Contacts - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/childLocations/fake/contactRoles",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake",
+								"contactRoles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Child Location Contacts - CH123452",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"2007202\",\r\n    \"1026258\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/contactRoles/assign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"contactRoles",
+								"assign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Child Location Contacts - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"2007202\",\r\n    \"1026258\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/fake/contactRoles/assign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake",
+								"contactRoles",
+								"assign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unassign Child Location Contacts - CH123452",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"1026258\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/contactRoles/unassign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"contactRoles",
+								"unassign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unassign Child Location Contacts - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contactList\": [\r\n    \"1026258\"\r\n  ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/fake/contactRoles/unassign",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake",
+								"contactRoles",
+								"unassign"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Events - CH123452",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"events\": [\r\n    {\r\n      \"eventName\": \"New Year Event\",\r\n      \"eventStart\": {\r\n        \"month\": 11,\r\n        \"dayOfMonth\": 31,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 0,\r\n        \"dayOfMonth\": 1,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 18,\r\n        \"minute\": 45\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 23,\r\n        \"minute\": 30\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"All Day\",\r\n      \"daylightSavings\": true\r\n    },\r\n    {\r\n      \"eventName\": \"Black Friday\",\r\n      \"eventStart\": {\r\n        \"month\": 10,\r\n        \"dayOfMonth\": null,\r\n        \"dayOfWeek\": 5,\r\n        \"ordinalInMonth\": 4\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 11,\r\n        \"dayOfMonth\": null,\r\n        \"dayOfWeek\": 1,\r\n        \"ordinalInMonth\": 1\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 10,\r\n        \"minute\": 0\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 19,\r\n        \"minute\": 0\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"Few days\",\r\n      \"daylightSavings\": false\r\n    }\r\n  ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/events",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campus Events - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"events\": [\r\n    {\r\n      \"eventName\": \"New Year Event\",\r\n      \"eventStart\": {\r\n        \"month\": 11,\r\n        \"dayOfMonth\": 31,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"eventEnd\": {\r\n        \"month\": 0,\r\n        \"dayOfMonth\": 1,\r\n        \"dayOfWeek\": null,\r\n        \"ordinalInMonth\": null\r\n      },\r\n      \"startTime\": {\r\n        \"hour\": 18,\r\n        \"minute\": 45\r\n      },\r\n      \"endTime\": {\r\n        \"hour\": 23,\r\n        \"minute\": 30\r\n      },\r\n      \"frequency\": \"Yearly\",\r\n      \"eventTime\": \"All Day\",\r\n      \"daylightSavings\": true\r\n    }\r\n  ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/fake/events",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake",
+								"events"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location Business Info - CH123452 (openForXxx)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"businessInfo\": {\r\n    \"openForBusiness\": true,\r\n    \"openForPurchase\": false,\r\n    \"openForShipping\": true,\r\n    \"openForReceiving\": true,\r\n    \"openForDisclosure\": true\r\n  },\r\n  \"applyToChildren\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/businessInfo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"businessInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location Business Info - CH123452 (non-openForXxx)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"businessInfo\": {\r\n    \"proPickUp\": true,\r\n    \"selfCheckout\": false,\r\n    \"staffPropickup\": true,\r\n    \"visibleToWebsite\": false\r\n  },\r\n  \"applyToChildren\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/businessInfo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"businessInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location Business Info - CH123452 (all, applyToChildren)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"businessInfo\": {\r\n    \"openForBusiness\": true,\r\n    \"openForPurchase\": false,\r\n    \"openForShipping\": true,\r\n    \"openForReceiving\": false,\r\n    \"proPickUp\": true,\r\n    \"selfCheckout\": true,\r\n    \"staffPropickup\": false,\r\n    \"visibleToWebsite\": true,\r\n    \"openForDisclosure\": false\r\n  },\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/businessInfo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"businessInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location Business Info - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"businessInfo\": {\r\n    \"openForBusiness\": true,\r\n    \"openForPurchase\": false,\r\n    \"openForShipping\": true,\r\n    \"openForReceiving\": false,\r\n    \"proPickUp\": true,\r\n    \"selfCheckout\": true,\r\n    \"staffPropickup\": false,\r\n    \"visibleToWebsite\": true,\r\n    \"openForDisclosure\": false\r\n  },\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/fake/businessInfo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake",
+								"businessInfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Set Child Location Operating Hours - CH123452 (applyToChildren=false)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"operatingHours\": [\r\n    {\r\n        \"operatingHoursId\": \"01\",\r\n        \"dayOfWeek\": 1,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:01\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"No\",\r\n        \"receivingHours\": \"06:00-15:00\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": true\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"02\",\r\n        \"dayOfWeek\": 2,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:02\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:01-15:01\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": false\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"03\",\r\n        \"dayOfWeek\": 3,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:03\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:02-15:02\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": true\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"04\",\r\n        \"dayOfWeek\": 4,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:04\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"No\",\r\n        \"receivingHours\": \"06:03-15:03\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": true\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"05\",\r\n        \"dayOfWeek\": 5,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:05\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:04-15:04\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": false\r\n    }\r\n  ],\r\n  \"applyToChildren\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/operatingHours",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"operatingHours"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Set Child Location Operating Hours - CH123452 (applyToChildren=true)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"operatingHours\": [\r\n    {\r\n        \"operatingHoursId\": \"01\",\r\n        \"dayOfWeek\": 1,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:01\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"No\",\r\n        \"receivingHours\": \"06:00-15:00\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": false\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"02\",\r\n        \"dayOfWeek\": 2,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:02\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:01-15:01\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": false\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"03\",\r\n        \"dayOfWeek\": 3,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:03\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:02-15:02\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": true\r\n    }\r\n  ],\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/CH123452/operatingHours",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"CH123452",
+								"operatingHours"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Set Child Location Operating Hours - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"operatingHours\": [\r\n    {\r\n        \"operatingHoursId\": \"01\",\r\n        \"dayOfWeek\": 1,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:01\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"No\",\r\n        \"receivingHours\": \"06:00-15:00\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": false\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"02\",\r\n        \"dayOfWeek\": 2,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:02\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:01-15:01\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": false\r\n    },\r\n    {\r\n        \"operatingHoursId\": \"03\",\r\n        \"dayOfWeek\": 3,\r\n        \"operatingHours\": {\r\n            \"startTime\": \"06:03\",\r\n            \"endTime\": \"16:00\"\r\n        },\r\n        \"afterHours\": \"Yes\",\r\n        \"receivingHours\": \"06:02-15:02\",\r\n        \"effectiveDate\": \"2019-01-01T00:00:00\",\r\n        \"endDate\": \"2021-12-31T00:00:00\",\r\n        \"isDaylightSaving\": true\r\n    }\r\n  ],\r\n  \"applyToChildren\": true\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/childLocations/fake/operatingHours",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"childLocations",
+								"fake",
+								"operatingHours"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Associate",
+			"item": [
+				{
+					"name": "Search Associates - default",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/associates",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Associates - filters",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/associates?associateId=10&firstName=Clau&lastName=Rodriguez&title=coordinator",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates"
+							],
+							"query": [
+								{
+									"key": "associateId",
+									"value": "10"
+								},
+								{
+									"key": "firstName",
+									"value": "Clau"
+								},
+								{
+									"key": "lastName",
+									"value": "Rodriguez"
+								},
+								{
+									"key": "title",
+									"value": "coordinator"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Associates - paging",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/associates?pageNum=2&pageSize=2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates"
+							],
+							"query": [
+								{
+									"key": "pageNum",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location by Id - 2007202",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/associates/2007202",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates",
+								"2007202"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Child Location by Id - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/associates/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location - 2007202 (full)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"A.j.Vancil@ferguson.com\",\r\n    \"contactNumber\": \"0123-456-789\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/associates/2007202",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates",
+								"2007202"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch Child Location - Not Found",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"A.j.Vancil@ferguson.com\",\r\n    \"contactNumber\": \"0123-456-789\"\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/associates/fake",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"associates",
+								"fake"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

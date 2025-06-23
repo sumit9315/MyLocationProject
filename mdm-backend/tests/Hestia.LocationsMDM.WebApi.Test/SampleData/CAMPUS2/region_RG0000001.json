@@ -1,0 +1,61 @@
+{
+    "node": "RG0000001",
+    "partition_key": "region",
+    "edmcsNode": [
+        "100000425"
+    ],
+    "campusNodeId": "CA00000200",
+    "oracleCompanyID": 9801,
+    "oracleCompanyName": "Ferguson Fire & Fabrication Inc",
+    "salesSystem": "TRIL",
+    "address": {
+        "addressLine1": "1095 S Rock Boulevard",
+        "addressLine2": "",
+        "addressLine3": "",
+        "cityName": "Reno",
+        "state": "NV",
+        "countryName": "United States",
+        "postalCodePrimary": "89502",
+        "postalCodeExtn": "7156",
+        "altShiptoAddressLine1": "1095 S Rock Boulevard",
+        "altShiptoAddressLine2": "",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Reno",
+        "altShiptoState": "NV",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": "89502",
+        "altShipToPostalCodeExtn": "7156"
+    },
+    "regionID": "FFTOTL",
+    "regionName": "Fire And Fabrication",
+    "pbuID": "04_FF",
+    "pbuName": "Fire and Fabrication",
+    "districtId": [
+        "D00065"
+    ],
+    "associateId": [
+        "2011926",
+        "2011927"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "openforPublicDiscloure": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "775-358-5095"
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

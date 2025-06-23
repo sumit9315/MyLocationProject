@@ -1,0 +1,63 @@
+{
+    "node": "RG0000007",
+    "partition_key": "region",
+    "edmcsNode": [
+        "100000246",
+        "100001938"
+    ],
+    "campusNodeId": "CA00000300",
+    "oracleCompanyID": "1000",
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "salesSystem": "TRIL",
+    "address": {
+        "addressLine1": "620 Fairground Road",
+        "addressLine2": "",
+        "addressLine3": "",
+        "cityName": "Front Royal",
+        "state": "VA",
+        "countryName": "United States",
+        "postalCodePrimary": 22630,
+        "postalCodeExtn": 6742,
+        "altShiptoAddressLine1": "620 Fairground Road",
+        "altShiptoAddressLine2": "",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Front Royal",
+        "altShiptoState": "VA",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": 22630,
+        "altShipToPostalCodeExtn": 6742
+    },
+    "regionID": "DISTRB",
+    "regionName": "Distribution Center BUS",
+    "pbuID": "14_DC",
+    "pbuName": "Distribution",
+    "districtId": [
+        "D000DA",
+        "D000DC"
+    ],
+    "associateId": [
+        "2011962",
+        "2011963"
+    ],
+    "calendarEventId": [
+        "50",
+        "51",
+        "52"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "openforPublicDiscloure": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "540-636-1977"
+    ],
+    "longitude": 24.5741596,
+    "latitude": 101.236589,
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

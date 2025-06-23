@@ -1,0 +1,59 @@
+{
+    "node": "CA00000200",
+    "partition_key": "campus",
+    "edmcsNode": [
+        "100000425",
+        "100000995",
+        "100001522"
+    ],
+    "locationID": [
+        "LX301420_2",
+        "LX301420_1",
+        "LX301420_0"
+    ],
+    "locationName": "",
+    "address": {
+        "addressLine1": "1095 S Rock Boulevard",
+        "cityName": "Reno",
+        "state": "NV",
+        "countryName": "United States",
+        "postalCodePrimary": 89502,
+        "postalCodeExtn": 7156,
+        "altShiptoAddressLine1": "1095 S Rock Boulevard",
+        "altShiptoCityName": "Reno",
+        "altShiptoState": "NV",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCodePrimary": 89502,
+        "altShiptoPostalCodeExtn": 7156
+    },
+    "districtId": [
+        "D00065",
+        "D00051",
+        "D00003"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "associateId": [
+        "2012019"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "775-358-509",
+        "775-353-3800",
+        "775-688-5000"
+    ],
+    "latitude": "23.5741936",
+    "longitude": "101.236589",
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

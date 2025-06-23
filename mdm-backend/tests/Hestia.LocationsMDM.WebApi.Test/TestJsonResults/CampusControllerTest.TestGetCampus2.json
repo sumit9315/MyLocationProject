@@ -1,0 +1,136 @@
+{
+  "CampusName": "",
+  "CampusId": "CA00000200",
+  "Address": {
+    "AddressLine1": "1095 S Rock Boulevard",
+    "AddressLine2": null,
+    "AddressLine3": null,
+    "CityName": "Reno",
+    "State": "NV",
+    "CountryName": "United States",
+    "PostalCodePrimary": "89502",
+    "PostalCodeExtn": "7156",
+    "AltShiptoAddressLine1": "1095 S Rock Boulevard",
+    "AltShiptoAddressLine2": null,
+    "AltShiptoAddressLine3": null,
+    "AltShiptoCityName": "Reno",
+    "AltShiptoState": "NV",
+    "AltShiptoCountryName": "United States",
+    "AltShiptoPostalCode": null,
+    "AltShiptoPostalCodePrimary": "89502",
+    "AltShiptoPostalCodeExtn": "7156"
+  },
+  "CampusPhoneNumbers": [
+    "775-358-509",
+    "775-353-3800",
+    "775-688-5000"
+  ],
+  "Latitude": "23.5741936",
+  "Longitude": "101.236589",
+  "LocationInfo": [
+    {
+      "LocationId": "LX301420_2",
+      "LocationName": null
+    },
+    {
+      "LocationId": "LX301420_1",
+      "LocationName": null
+    },
+    {
+      "LocationId": "LX301420_0",
+      "LocationName": null
+    }
+  ],
+  "OpenForBusinessFlag": false,
+  "OpenForDisclosureFlag": null,
+  "TimezoneIdentifier": "EST",
+  "CampusContacts": [
+    {
+      "Name": "Raphael Dreier",
+      "Title": "Warehouse Associate I"
+    }
+  ],
+  "ChildSummary": [
+    {
+      "LocationType": null,
+      "Name": "Fire And Fabrication",
+      "Address": {
+        "AddressLine1": "1095 S Rock Boulevard",
+        "AddressLine2": "",
+        "AddressLine3": "",
+        "CityName": "Reno",
+        "State": "NV",
+        "CountryName": "United States",
+        "PostalCodePrimary": "89502",
+        "PostalCodeExtn": "7156",
+        "AltShiptoAddressLine1": "1095 S Rock Boulevard",
+        "AltShiptoAddressLine2": "",
+        "AltShiptoAddressLine3": "",
+        "AltShiptoCityName": "Reno",
+        "AltShiptoState": "NV",
+        "AltShiptoCountryName": "United States",
+        "AltShiptoPostalCode": "89502",
+        "AltShiptoPostalCodePrimary": null,
+        "AltShiptoPostalCodeExtn": "7156"
+      },
+      "PartitionKey": null,
+      "LocationId": null,
+      "Children": [],
+      "Id": "RG0000001"
+    },
+    {
+      "LocationType": null,
+      "Name": "Waterworks",
+      "Address": {
+        "AddressLine1": "1095 S Rock Boulevard",
+        "AddressLine2": "",
+        "AddressLine3": "",
+        "CityName": "Reno",
+        "State": "NV",
+        "CountryName": "United States",
+        "PostalCodePrimary": "89502",
+        "PostalCodeExtn": "7156",
+        "AltShiptoAddressLine1": "1095 S Rock Boulevard",
+        "AltShiptoAddressLine2": "",
+        "AltShiptoAddressLine3": "",
+        "AltShiptoCityName": "Reno",
+        "AltShiptoState": "NV",
+        "AltShiptoCountryName": "United States",
+        "AltShiptoPostalCode": "89502",
+        "AltShiptoPostalCodePrimary": null,
+        "AltShiptoPostalCodeExtn": "7156"
+      },
+      "PartitionKey": null,
+      "LocationId": null,
+      "Children": [],
+      "Id": "RG0000002"
+    },
+    {
+      "LocationType": null,
+      "Name": "Blended West",
+      "Address": {
+        "AddressLine1": "1095 S Rock Boulevard",
+        "AddressLine2": "",
+        "AddressLine3": "",
+        "CityName": "Reno",
+        "State": "NV",
+        "CountryName": "United States",
+        "PostalCodePrimary": "89502",
+        "PostalCodeExtn": "7156",
+        "AltShiptoAddressLine1": "1095 S Rock Boulevard",
+        "AltShiptoAddressLine2": "",
+        "AltShiptoAddressLine3": "",
+        "AltShiptoCityName": "Reno",
+        "AltShiptoState": "NV",
+        "AltShiptoCountryName": "United States",
+        "AltShiptoPostalCode": "89502",
+        "AltShiptoPostalCodePrimary": null,
+        "AltShiptoPostalCodeExtn": "7156"
+      },
+      "PartitionKey": null,
+      "LocationId": null,
+      "Children": [],
+      "Id": "RG0000003"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+    "node": "RG0000004",
+    "partition_key": "region",
+    "edmcsNode": [
+        "100000522",
+        "100000451",
+        "100001097",
+        "100002335",
+        "100002369",
+        "100002370",
+        "100002371",
+        "100002372",
+        "100002373",
+        "100002374"
+    ],
+    "campusNodeId": "CA00000100",
+    "oracleCompanyID": 1000,
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "salesSystem": "TRIL",
+    "address": {
+        "addressLine1": "111 E Buckeye Road",
+        "addressLine2": "Suite 2",
+        "addressLine3": "",
+        "cityName": "Phoenix",
+        "state": "AZ",
+        "countryName": "United States",
+        "postalCodePrimary": 85004,
+        "postalCodeExtn": 2725,
+        "altShiptoAddressLine1": "111 E Buckeye Road",
+        "altShiptoAddressLine2": "Suite 2",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Phoenix",
+        "altShiptoState": "AZ",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": 85004,
+        "altShipToPostalCodeExtn": 2725
+    },
+    "regionID": "BLWEST",
+    "regionName": "Blended West",
+    "pbuID": "20_BLW",
+    "pbuName": "Blended West",
+    "districtId": [
+        "D00002"
+    ],
+    "associateId": [
+        "2007202",
+        "1012842"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "openforPublicDiscloure": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "602-495-8300"
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

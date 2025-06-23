@@ -1,0 +1,223 @@
+{
+    "childLocationId": "OS00000111",
+    "locationName": "Phoenix AZ Campus",
+    "locationType": "Office Space",
+    "partition_key": "childLoc",
+    "regionNodeId": "RG0000004",
+    "areaID": "SOWE07",
+    "areaName": "W Blended FFS Southwest Area",
+    "districtID": "D00002",
+    "districtName": "D02 W Blended Southwest",
+    "lobId": "BLTOTL",
+    "lobDescription": "Total Blended Branches",
+    "costOrg": "",
+    "oracleCompanyID": 1000,
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "workdayCompanyID": 874,
+    "einFederal": 541211771,
+    "currency": "USD",
+    "locationEffectiveDate": "2020-01-08 00:00:00",
+    "locationCloseDate": "",
+    "salesSystem": "TRIL",
+    "notes": "",
+    "lobCc": 538100,
+    "lobCcName": "PHOENIX AZ - FFS SOUTHWEST",
+    "ccType": "D",
+    "locationStatus": "O",
+    "inventoryOrg": "",
+    "costCenterID": 5381,
+    "edmcsNode": 100002335,
+    "regionID": "BLWEST",
+    "regionName": "Blended West",
+    "locationID": "LX280827_0",
+    "address": {
+        "addressLine1": "111 E Buckeye Road",
+        "addressLine2": "Suite 2",
+        "addressLine3": "",
+        "cityName": "Phoenix",
+        "state": "AZ",
+        "countryName": "United States",
+        "postalCodePrimary": 85004,
+        "postalCodeExtn": 2725,
+        "altShiptoAddressLine1": "111 E Buckeye Road",
+        "altShiptoAddressLine2": "Suite 2",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Phoenix",
+        "altShiptoState": "AZ",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": 85004,
+        "altShipToPostalCodeExtn": 2725
+    },
+    "glbuID": 1001,
+    "glbuName": "Southwest",
+    "inspyrusOU": 1001,
+    "trilogieLogon": "PHOENIX",
+    "trilogieAlias": "Southwest",
+    "bmi": "Y",
+    "counter": "",
+    "intercoSales": "",
+    "showroom": "",
+    "legacyDistrictID": "02",
+    "legacyDistrictName": "D02 W Blended Southwest",
+    "pbuID": "20_BLW",
+    "pbuName": "Blended West",
+    "cpbuID": "BLENDED",
+    "cpbuDescription": "Blended Business Units",
+    "ccoEmplId": 504662,
+    "lobCcOwnerName": "Marty Young",
+    "operatingHours": [
+        {
+            "operatingHoursID": "",
+            "day": "Monday",
+            "openHour": "06:00",
+            "closeHour": "16:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "",
+            "day": "Tuesday",
+            "openHour": "06:00",
+            "closeHour": "16:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "",
+            "day": "Wednesday",
+            "openHour": "06:00",
+            "closeHour": "16:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "",
+            "day": "Thursday",
+            "openHour": "06:00",
+            "closeHour": "16:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "",
+            "day": "Friday",
+            "openHour": "06:00",
+            "closeHour": "16:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "",
+            "day": "Saturday",
+            "openHour": "07:00",
+            "closeHour": "12:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "",
+            "day": "Sunday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        }
+    ],
+    "associateId": [
+        "2011933",
+        "2011996"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contacts": "",
+    "productOffering": [
+        "Pipes",
+        "Plumbing",
+        "HVAC"
+    ],
+    "customerFacingLocationName": "",
+    "domLocationStatus": "",
+    "proPickup": "N",
+    "proPickupDuration": "",
+    "selfCheckout": "N",
+    "staffUnStaffProPickup": "N",
+    "openforBusinessFlag": "Y",
+    "openforPurchaseFlag": "Y",
+    "openforShipping": "Y",
+    "openforReceiving": "Y",
+    "openforPublicDiscloure": "Y",
+    "visibletoWebsitesFlag": [
+        {
+            "website": "ferguson.com",
+            "visible": "Y"
+        }
+    ],
+    "timeZoneIdentifier": "EST",
+    "isoCertified": "Y",
+    "fabricationShop": "N",
+    "locationPhoneNumber": [
+        "602-495-8300"
+    ],
+    "locationWebsiteURL": "",
+    "locationLandingPageURL": "https://www.ferguson.com/branch/phoenix-az-plumbing",
+    "locationLogos": "",
+    "closureMessage": "",
+    "afterHours": "N",
+    "equipmentFlag": [
+        {
+            "equipment": "HVAC",
+            "flag": "Y"
+        }
+    ],
+    "associations": [
+        {
+            "businessName": "showroom",
+            "associationName": "NRAI"
+        }
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "lobCcEffDate": "2019-02-28 T00:00:00",
+    "lobCcCloseDate": "",
+    "lobCcStatus": "Open",
+    "servicesAndCertification": [
+        "ISO Certified Fabrication"
+    ],
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

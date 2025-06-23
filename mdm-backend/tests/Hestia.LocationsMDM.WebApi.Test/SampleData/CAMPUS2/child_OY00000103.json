@@ -1,0 +1,223 @@
+{
+    "childLocationId": "OY00000103",
+    "locationName": "Reno NV - Fire",
+    "locationType": "Outside Storage Yard",
+    "partition_key": "childLoc",
+    "regionNodeId": "RG0000006",
+    "areaID": "FFFW01",
+    "areaName": "FFF West",
+    "districtID": "D00065",
+    "districtName": "D65 FFF West",
+    "lobId": "FIREFB",
+    "lobDescription": "Total Fire And Fabrication",
+    "costOrg": "TBD",
+    "oracleCompanyID": 9801,
+    "oracleCompanyName": "Ferguson Fire & Fabrication Inc",
+    "workdayCompanyID": 884,
+    "einFederal": 952912930,
+    "currency": "USD",
+    "locationEffectiveDate": "4/25/2017",
+    "locationCloseDate": "",
+    "salesSystem": "TRIL",
+    "notes": "Share with 1927  WW & 3210 Blended",
+    "lobCc": 672600,
+    "lobCcName": "RENO NV (FFF)",
+    "ccType": 1,
+    "locationStatus": "O",
+    "inventoryOrg": 6726,
+    "costCenterID": 726,
+    "edmcsNode": 100000425,
+    "regionID": "FFTOTL",
+    "regionName": "Fire And Fabrication",
+    "locationID": "LX301420_2",
+    "address": {
+        "addressLine1": "1095 S Rock Boulevard",
+        "addressLine2": "",
+        "addressLine3": "",
+        "cityName": "Reno",
+        "state": "NV",
+        "countryName": "United States",
+        "postalCodePrimary": "89502",
+        "postalCodeExtn": "7156",
+        "altShiptoAddressLine1": "1095 S Rock Boulevard",
+        "altShiptoAddressLine2": "",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Reno",
+        "altShiptoState": "NV",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": "89502",
+        "altShipToPostalCodeExtn": "7156"
+    },
+    "glbuID": 1743,
+    "glbuName": "FFF West",
+    "inspyrusOU": 1743,
+    "trilogieLogon": "FFFWEST",
+    "trilogieAlias": "",
+    "bmi": "",
+    "counter": "Y",
+    "intercoSales": "",
+    "showroom": "",
+    "legacyDistrictID": 65,
+    "legacyDistrictName": "D65 FFF West",
+    "pbuID": "04_FF",
+    "pbuName": "Fire and Fabrication",
+    "cpbuID": "FIRE",
+    "cpbuDescription": "Fire and Fabrication",
+    "ccoEmplId": 516839,
+    "lobCcOwnerName": "Michael Klein",
+    "operatingHours": [
+        {
+            "operatingHoursID": 24,
+            "day": "Monday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Tuesday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Wednesday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Thursday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Friday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Saturday",
+            "openHour": "8:00",
+            "closeHour": "13:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Sunday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        }
+    ],
+    "associateId": [
+        "2011926",
+        "2011927"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contacts": "",
+    "productOffering": [
+        "Pipes",
+        "Plumbing",
+        "HVAC"
+    ],
+    "customerFacingLocationName": "",
+    "domLocationStatus": "",
+    "proPickup": "N",
+    "proPickupDuration": "",
+    "selfCheckout": "N",
+    "staffUnStaffProPickup": "N",
+    "openforBusinessFlag": "Y",
+    "openforPurchaseFlag": "Y",
+    "openforShipping": "Y",
+    "openforReceiving": "Y",
+    "openforPublicDiscloure": "Y",
+    "visibletoWebsitesFlag": [
+        {
+            "website": "ferguson.com",
+            "visible": "Y"
+        }
+    ],
+    "timeZoneIdentifier": "EST",
+    "isoCertified": "Y",
+    "fabricationShop": "N",
+    "locationPhoneNumber": [
+        "775-358-5095"
+    ],
+    "locationWebsiteURL": "",
+    "locationLandingPageURL": "https://www.ferguson.com/branch/1095-s-rock-blvd-reno-nv-firefab",
+    "locationLogos": "",
+    "closureMessage": "",
+    "afterHours": "N",
+    "equipmentFlag": [
+        {
+            "equipment": "HVAC",
+            "flag": "Y"
+        }
+    ],
+    "associations": [
+        {
+            "businessName": "Plimbing/PVF",
+            "associationName": "ASID"
+        }
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "lobCcEffDate": "2019-02-28 T00:00:02",
+    "lobCcCloseDate": "",
+    "lobCcStatus": "Open",
+    "servicesAndCertification": [
+        "ISO Certified Fabrication"
+    ],
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

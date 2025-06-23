@@ -1,0 +1,223 @@
+{
+    "childLocationId": "WH00000102",
+    "locationName": "Phoenix AZ Campus",
+    "locationType": "WareHouse",
+    "partition_key": "childLoc",
+    "regionNodeId": "RG0000006",
+    "areaID": "WWWE06",
+    "areaName": "WW Arizona",
+    "districtID": "D00051",
+    "districtName": "D51 Waterworks West",
+    "lobId": "WATERW",
+    "lobDescription": "Total Waterworks",
+    "costOrg": "TBD",
+    "oracleCompanyID": 1000,
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "workdayCompanyID": 874,
+    "einFederal": 541211771,
+    "currency": "USD",
+    "locationEffectiveDate": "2008-08-08 00:00:00",
+    "locationCloseDate": "",
+    "salesSystem": "TRIL",
+    "notes": "Shares with 0711 1001 & 1954",
+    "lobCc": 308300,
+    "lobCcName": "PHOENIX AZ - WW",
+    "ccType": 1,
+    "locationStatus": "O",
+    "inventoryOrg": 3083,
+    "costCenterID": 3083,
+    "edmcsNode": 100001450,
+    "regionID": "WWTOTL",
+    "regionName": "Waterworks",
+    "locationID": "LX280827_2",
+    "address": {
+        "addressLine1": "111 E Buckeye Road",
+        "addressLine2": "Suite 5",
+        "addressLine3": "",
+        "cityName": "Phoenix",
+        "state": "AZ",
+        "countryName": "United States",
+        "postalCodePrimary": 85004,
+        "postalCodeExtn": 8725,
+        "altShiptoAddressLine1": "111 E Buckeye Road",
+        "altShiptoAddressLine2": "Suite 5",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Phoenix",
+        "altShiptoState": "AZ",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": 85004,
+        "altShipToPostalCodeExtn": 8725
+    },
+    "glbuID": 3083,
+    "glbuName": "Arizona - WW",
+    "inspyrusOU": 3083,
+    "trilogieLogon": "ARIZONAWW",
+    "trilogieAlias": "Arizona_Waterworks",
+    "bmi": "",
+    "counter": "Y",
+    "intercoSales": "",
+    "showroom": "",
+    "legacyDistrictID": 51,
+    "legacyDistrictName": "D51 Waterworks West",
+    "pbuID": "06_WW",
+    "pbuName": "Waterworks",
+    "cpbuID": "WATERWORKS",
+    "cpbuDescription": "Waterworks",
+    "ccoEmplId": 503972,
+    "lobCcOwnerName": "Dan Warner",
+    "operatingHours": [
+        {
+            "operatingHoursID": "24",
+            "day": "Monday",
+            "openHour": "05:00",
+            "closeHour": "15:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "24",
+            "day": "Tuesday",
+            "openHour": "05:00",
+            "closeHour": "15:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "24",
+            "day": "Wednesday",
+            "openHour": "05:00",
+            "closeHour": "15:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "24",
+            "day": "Thursday",
+            "openHour": "05:00",
+            "closeHour": "15:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "24",
+            "day": "Friday",
+            "openHour": "05:00",
+            "closeHour": "15:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "24",
+            "day": "Saturday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": "24",
+            "day": "Sunday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        }
+    ],
+    "associateId": [
+        "2011933",
+        "2011996"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contacts": "",
+    "productOffering": [
+        "Pipes",
+        "Plumbing",
+        "HVAC"
+    ],
+    "customerFacingLocationName": "",
+    "domLocationStatus": "",
+    "proPickup": "N",
+    "proPickupDuration": "",
+    "selfCheckout": "N",
+    "staffUnStaffProPickup": "N",
+    "openforBusinessFlag": "Y",
+    "openforPurchaseFlag": "Y",
+    "openforShipping": "Y",
+    "openforReceiving": "Y",
+    "openforPublicDiscloure": "Y",
+    "visibletoWebsitesFlag": [
+        {
+            "website": "ferguson.com",
+            "visible": "Y"
+        }
+    ],
+    "timeZoneIdentifier": "EST",
+    "isoCertified": "Y",
+    "fabricationShop": "N",
+    "locationPhoneNumber": [
+        "602-495-8420"
+    ],
+    "locationWebsiteURL": "",
+    "locationLandingPageURL": "https://www.ferguson.com/branch/phoenix-az-waterworks",
+    "locationLogos": "",
+    "closureMessage": "",
+    "afterHours": "N",
+    "equipmentFlag": [
+        {
+            "equipment": "HVAC",
+            "flag": "Y"
+        }
+    ],
+    "associations": [
+        {
+            "businessName": "showroom",
+            "associationName": "NRAI"
+        }
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "lobCcEffDate": "2019-02-28 T00:00:00",
+    "lobCcCloseDate": "",
+    "lobCcStatus": "Open",
+    "servicesAndCertification": [
+        "ISO Certified Fabrication"
+    ],
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

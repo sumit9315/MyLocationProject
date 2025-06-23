@@ -1,0 +1,248 @@
+{
+	"childLocationId": "CH123451",
+	"edmcsNode": "100000451",
+	"partition_key": "childLoc",
+	"regionNodeId": "RG0000006",
+	"oracleCompanyID": "1000",
+	"oracleCompanyName": "Ferguson Enterprises LLC",
+	"workdayCompanyID": "874",
+	"einFederal": "541211771",
+	"currency": "USD",
+	"ccType": "D",
+	"locationStatus": "O",
+	"locationEffectiveDate": "2017-07-31 T00:00:00",
+	"locationCloseDate": "",
+	"salesSystem": "TRIL",
+	"notes": "",
+	"locationID": "LX280827_0",
+	"locationName": "Phoenix AZ Campus",
+	"address": {
+		"addressLine1": "111 E Buckeye Road",
+		"addressLine2": "Suite 2",
+		"addressLine3": "",
+		"cityName": "Phoenix",
+		"state": "AZ",
+		"countryName": "United States",
+		"postalCodePrimary": "85004",
+		"postalCodeExtn": "2725",
+		"altShiptoAddressLine1": "111 E Buckeye Road",
+		"altShiptoAddressLine2": "Suite 2",
+		"altShiptoAddressLine3": "",
+		"altShiptoCityName": "Phoenix",
+		"altShiptoState": "AZ",
+		"altShiptoCountryName": "United States",
+		"altShiptoPostalCode": "85004",
+		"altShipToPostalCodeExtn": "2725"
+	},
+	"glbuID": "1001",
+	"glbuName": "Southwest",
+	"inspyrusOU": "1001",
+	"trilogieLogon": "PHOENIX",
+	"trilogieAlias": "Southwest",
+	"bmi": "Y",
+	"counter": "N",
+	"intercoSales": "N",
+	"showroom": "N",
+	"legacyDistrictID": "02",
+	"legacyDistrictName": "D02 W Blended Southwest",
+	"cpbuID": "BLENDED",
+	"cpbuDescription": "Blended Business Units",
+	"lobCcOwnerName": "Marty Young",
+	"ccoEmplId": "0504662",
+	"lobId": "BLTOTL",
+	"lobDescription": "Total Blended Branches",
+	"lobCc": "677900",
+	"costCenterID": "0779",
+	"lobCcName": "PHOENIX AZ - DISTRICT TRAINEES",
+	"areaID": "SOWE09",
+	"areaName": "W Blended Southwest Admin & Other",
+	"districtID": "D00002",
+	"districtName": "D02 W Blended Southwest",
+	"inventoryOrg": "NA",
+	"costOrg": "NA",
+	"longitude": "23.5741936",
+	"latitude": "101.236589",
+	"locationType": "Counter",
+	"lobCcEffDate": "",
+	"lobCcCloseDate": "",
+	"lobCcStatus": "",
+	"servicesAndCertification": [
+		""
+	],
+	"valueAddedServices": [
+		"",
+		"",
+		""
+	],
+	"operatingHours": [
+		{
+			"operatingHoursID": "24",
+			"day": "Monday",
+			"openHour": "600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		},
+		{
+			"operatingHoursID": 24,
+			"day": "Tuesday",
+			"openHour": "0600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		},
+		{
+			"operatingHoursID": 24,
+			"day": "Wednesday",
+			"openHour": "0600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		},
+		{
+			"operatingHoursID": 24,
+			"day": "Thursday",
+			"openHour": "0600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		},
+		{
+			"operatingHoursID": 24,
+			"day": "Friday",
+			"openHour": "0600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		},
+		{
+			"operatingHoursID": 24,
+			"day": "Saturday",
+			"openHour": "0600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		},
+		{
+			"operatingHoursID": 24,
+			"day": "Sunday",
+			"openHour": "0600",
+			"closeHour": "1600",
+			"hourEffectiveDate": "2019-01-01 T00:00:00",
+			"hourEndDate": "2021-12-31 T00:00:00",
+			"dayLightSavingFlag": "Y",
+			"afterHoursFlag": "",
+			"afterHours": "",
+			"receivingHours": ""
+		}
+	],
+	"associateId": [
+		"2011926",
+		"2011927"
+	],
+	"calendarEventId": [
+		"45",
+		"46",
+		"47"
+	],
+	"contacts": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"productOffering": [
+		"",
+		"",
+		""
+	],
+	"customerFacingLocationName": "",
+	"domLocationStatus": "",
+	"proPickup": "",
+	"proPickupDuration": "",
+	"selfCheckout": "",
+	"staffUnStaffProPickup": "",
+	"openforBusinessFlag": "",
+	"openforPurchaseFlag": "",
+	"openforShipping": "",
+	"openforReceiving": "",
+	"openforPublicDiscloure": "",
+	"visibletoWebsitesFlag": [
+		{
+			"website": "",
+			"visible": ""
+		},
+		{
+			"website": "",
+			"visible": ""
+		}
+	],
+	"timeZoneIdentifier": "EST",
+	"isoCertified": "",
+	"fabricationShop": "",
+	"locationPhoneNumber": [
+		"",
+		""
+	],
+	"locationWebsiteURL": "",
+	"locationLandingPageURL": "",
+	"locationLogos": "",
+	"locationImages": [
+		"",
+		"",
+		""
+	],
+	"closureMessage": "",
+	"afterHours": "",
+	"receivingHours": [],
+	"waterworksServices": [
+		"",
+		"",
+		""
+	],
+	"equipmentFlag": [
+		{
+			"equipment": "",
+			"flag": ""
+		}
+	],
+	"associations": [
+		{
+			"businessName": "",
+			"associationName": ""
+		}
+	],
+	"recSource": "EDMCS",
+	"recSourceFile": "EDMCS_07072020",
+	"recStatus": "Active",
+	"recEffDt": "2019-02-28 T00:00:00",
+	"recExpDt": null,
+	"recCreatedBy": "Loc Admin"
+}

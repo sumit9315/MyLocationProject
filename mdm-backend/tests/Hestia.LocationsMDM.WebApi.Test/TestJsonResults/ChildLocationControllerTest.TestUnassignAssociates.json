@@ -1,0 +1,14 @@
+{
+  "apiResult": {
+    "StatusCode": 204
+  },
+  "updatedAssociates": [
+    {
+      "AssociateId": "2007202",
+      "FirstName": "A.j",
+      "MiddleName": null,
+      "LastName": "Vancil",
+      "Title": "Warehouse Manager"
+    }
+  ]
+}

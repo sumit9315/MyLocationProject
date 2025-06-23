@@ -1,0 +1,223 @@
+{
+    "childLocationId": "WH00000105",
+    "locationName": "Reno NV Campus",
+    "locationType": "WareHouse",
+    "partition_key": "childLoc",
+    "regionNodeId": "RG0000006",
+    "areaID": "NOCA03",
+    "areaName": "W Blended Reno Northern NV Area",
+    "districtID": "D00003",
+    "districtName": "D03 W Blended Norcal",
+    "lobId": "BLTOTL",
+    "lobDescription": "Total Blended Branches",
+    "costOrg": "TBD",
+    "oracleCompanyID": 1000,
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "workdayCompanyID": 874,
+    "einFederal": 541211771,
+    "currency": "USD",
+    "locationEffectiveDate": "4/25/2017",
+    "locationCloseDate": "",
+    "salesSystem": "TRIL",
+    "notes": "Share with 0726 Fire & 1927 WW",
+    "lobCc": 321000,
+    "lobCcName": "RENO NV (ROCK BLVD)",
+    "ccType": 1,
+    "locationStatus": "O",
+    "inventoryOrg": 3210,
+    "costCenterID": 3210,
+    "edmcsNode": 100001522,
+    "regionID": "BLWEST",
+    "regionName": "Blended West",
+    "locationID": "LX301420_0",
+    "address": {
+        "addressLine1": "1095 S Rock Boulevard",
+        "addressLine2": "",
+        "addressLine3": "",
+        "cityName": "Reno",
+        "state": "NV",
+        "countryName": "United States",
+        "postalCodePrimary": 89502,
+        "postalCodeExtn": 7156,
+        "altShiptoAddressLine1": "1095 S Rock Boulevard",
+        "altShiptoAddressLine2": "",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Reno",
+        "altShiptoState": "NV",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": 89502,
+        "altShipToPostalCodeExtn": 7156
+    },
+    "glbuID": 686,
+    "glbuName": "Northern California",
+    "inspyrusOU": 686,
+    "trilogieLogon": "SACRAMENTO",
+    "trilogieAlias": "Norcal",
+    "bmi": "Y",
+    "counter": "Y",
+    "intercoSales": "",
+    "showroom": "Y",
+    "legacyDistrictID": 3,
+    "legacyDistrictName": "D03 W Blended Norcal",
+    "pbuID": "20_BLW",
+    "pbuName": "Blended West",
+    "cpbuID": "BLENDED",
+    "cpbuDescription": "Blended Business Units",
+    "ccoEmplId": 510427,
+    "lobCcOwnerName": "Chris Cline",
+    "operatingHours": [
+        {
+            "operatingHoursID": 24,
+            "day": "Monday",
+            "openHour": "6:00",
+            "closeHour": "17:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Tuesday",
+            "openHour": "6:00",
+            "closeHour": "17:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Wednesday",
+            "openHour": "6:00",
+            "closeHour": "17:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Thursday",
+            "openHour": "6:00",
+            "closeHour": "17:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Friday",
+            "openHour": "6:00",
+            "closeHour": "17:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Saturday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Sunday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        }
+    ],
+    "associateId": [
+        "2011926",
+        "2011927"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contacts": "",
+    "productOffering": [
+        "Pipes",
+        "Plumbing",
+        "HVAC"
+    ],
+    "customerFacingLocationName": "",
+    "domLocationStatus": "",
+    "proPickup": "N",
+    "proPickupDuration": "",
+    "selfCheckout": "N",
+    "staffUnStaffProPickup": "N",
+    "openforBusinessFlag": "Y",
+    "openforPurchaseFlag": "Y",
+    "openforShipping": "Y",
+    "openforReceiving": "Y",
+    "openforPublicDiscloure": "Y",
+    "visibletoWebsitesFlag": [
+        {
+            "website": "ferguson.com",
+            "visible": "Y"
+        }
+    ],
+    "timeZoneIdentifier": "EST",
+    "isoCertified": "Y",
+    "fabricationShop": "N",
+    "locationPhoneNumber": [
+        "775-688-5000"
+    ],
+    "locationWebsiteURL": "",
+    "locationLandingPageURL": "https://www.ferguson.com/branch/reno-nv-plumbing",
+    "locationLogos": "",
+    "closureMessage": "",
+    "afterHours": "N",
+    "equipmentFlag": [
+        {
+            "equipment": "HVAC",
+            "flag": "Y"
+        }
+    ],
+    "associations": [
+        {
+            "businessName": "Plimbing/PVF",
+            "associationName": "ASID"
+        }
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "lobCcEffDate": "2019-02-28 T00:00:12",
+    "lobCcCloseDate": "",
+    "lobCcStatus": "Open",
+    "servicesAndCertification": [
+        "ISO Certified Fabrication"
+    ],
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

@@ -1,0 +1,55 @@
+{
+	"node": "CA1000006",
+	"partition_key": "campus",
+	"edmcsNode": [
+		"100000451",
+		"100000522",
+		"100001097",
+		"100002335",
+		"100002369",
+		"100002370",
+		"100002371",
+		"100002372",
+		"100002373",
+		"100002374"
+	],
+	"locationID": [
+		"LX280827_0"
+	],
+	"locationName": "Phoenix AZ Campus",
+	"address": {
+		"addressLine1": "111 E Buckeye Road",
+		"cityName": "Phoenix",
+		"state": "AZ",
+		"countryName": "United States",
+		"postalCodePrimary": "85004",
+		"postalCodeExtn": "8725",
+		"altShiptoAddressLine1": "111 E Buckeye Road",
+		"altShiptoCityName": "Phoenix",
+		"altShiptoState": "AZ",
+		"altShiptoCountryName": "United States",
+		"altShiptoPostalCodePrimary": "85004",
+		"altShiptoPostalCodeExtn": "8725"
+	},
+	"calendarEventId": [
+		"45",
+		"46",
+		"47"
+	],
+	"contactPhoneNumber": "712-492-4477",
+	"contactEmail": "campus234@ferguson.com",
+	"openforBusinessFlag": "Y",
+	"timeZoneIdentifier": "EST",
+	"locationPhoneNumber": [
+		"712-492-4455",
+		"712-492-4488"
+	],
+	"latitude": "101.236589",
+	"longitude": "23.5741936",
+	"recSource": "EDMCS",
+	"recSourceFile": "EDMCS_07072020",
+	"recStatus": "active",
+	"recEffDt": "2019-02-28 T00:00:00",
+	"recExpDt": "",
+	"recCreatedBy": "LocationMDM"
+}

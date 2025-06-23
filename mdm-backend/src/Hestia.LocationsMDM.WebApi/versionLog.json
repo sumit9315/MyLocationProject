@@ -1,0 +1,53 @@
+{
+  "currentVersion": "1.4",
+  "versions": [
+    {
+      "version": "1.4",
+      "releaseDate": "01/13/2022",
+      "notes": [
+        "Capability in LEAP to rename Campus Name (31637)",
+        "Capability in LEAP to rename Child Location Name (31652)",
+        "Hotfix - Change History not showing correctly (37607)",
+        "Loading Screen (spinning wheel) (36415)",
+        "Hotfix - Mass upload Pricing Region for Regular user as read only (38305)",
+        "LEAP Timeout setting (35854)",
+        "PATHWAYS Include only locations in Store Feed XML that are Open (LOB CC Status: O). (40508)",
+      ]
+    },
+    {
+      "version": "1.3",
+      "releaseDate": "11/30/2021",
+      "notes": [
+        "PATHWAYS Salesforce CR - Add Price Region ID at all nodes (31727)",
+        "Hotfix - Data Update 'Text to Counter' to 'False' for non-Counter",
+        "Child Locations (37428)"
+      ]
+    },
+    {
+      "version": "1.2",
+      "releaseDate": "11/10/2021",
+      "notes": [
+        "Hotfix - Initial Data Load Operating Hrs. in Change History (36489)",
+        "Disable Daylight Saving Flag (36411)",
+        "Add Cost Center ID in search (36681)",
+        "LEAP Versioning in Back end (36155)",
+        "Default Planned Events Holidays to all new Child Location (36413)",
+        "PATHWAYS Time Zone Pre-Populated through Azure (36416)"
+      ]
+    },
+    {
+      "version": "1.1",
+      "releaseDate": "10/29/2021",
+      "notes": [
+        "Hotfix - Longitude and Latitude Validation (36490)"
+      ]
+    },
+    {
+      "version": "1.0",
+      "releaseDate": "10/22/2021",
+      "notes": [
+        "Initial PROD rollout (CHG0054752)"
+      ]
+    }
+  ]
+}

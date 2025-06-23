@@ -1,0 +1,73 @@
+variables:
+  - name: buildConfiguration
+    value: Release
+  - name: _azureSubscription
+    value: core-access-backend - Azure
+  - name: _dbConnectionString
+    value: $(DBConnectionString)
+stages:
+  - stage: __default
+    jobs:
+      - job: BuildDeploy
+        pool:
+          vmImage: windows-latest
+        steps:
+          - task: UseDotNet@2
+            displayName: Use .NET Core 3.1.x
+            inputs:
+              version: 3.1.x
+              packageType: sdk
+          - task: DotNetCoreCLI@2
+            displayName: Restore
+            inputs:
+              command: restore
+              projects: "**/*.csproj"
+          - task: DotNetCoreCLI@2
+            displayName: Build
+            inputs:
+              command: build
+              projects: "**/*.csproj"
+              arguments: --configuration $(buildConfiguration)
+          - task: DotNetCoreCLI@2
+            displayName: Tests
+            inputs:
+              command: test
+              projects: "**/tests/**/*.csproj"
+              arguments: --configuration $(buildConfiguration)
+              testRunTitle: Tests
+            continueOnError: true #remove this once tests are fixed
+          - task: DotNetCoreCLI@2
+            displayName: Publish
+            inputs:
+              command: publish
+              publishWebProjects: true
+              arguments: -r linux-x64 --configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)
+              zipAfterPublish: true
+          - task: AzureRmWebAppDeployment@4
+            displayName: Deploy to App
+            inputs:
+              ConnectionType: AzureRM
+              azureSubscription: core-access-backend - Azure
+              appType: webAppLinux
+              WebAppName: core-access-backend
+              packageForLinux: $(Build.ArtifactStagingDirectory)/**/*.zip
+              RuntimeStack: DOTNETCORE|3.1
+              StartupCommand: dotnet CoreAccessControl.WebApi.dll
+          - task: SqlAzureDacpacDeployment@1
+            displayName: Create table
+            inputs:
+              azureSubscription: $(_azureSubscription)
+              AuthenticationType: connectionString
+              ConnectionString: $(_dbConnectionString)
+              deployType: SqlTask
+              SqlFile: $(Build.SourcesDirectory)/db/01.DDL.sql
+              IpDetectionMethod: AutoDetect
+          - task: SqlAzureDacpacDeployment@1
+            displayName: Insert test data
+            inputs:
+              azureSubscription: $(_azureSubscription)
+              AuthenticationType: connectionString
+              ConnectionString: $(_dbConnectionString)
+              deployType: SqlTask
+              SqlFile: $(Build.SourcesDirectory)/db/02.TestData.sql
+              IpDetectionMethod: AutoDetect

@@ -1,0 +1,48 @@
+{
+    "node": "CA00000300",
+    "partition_key": "campus",
+    "edmcsNode": "[100000246,100001938]",
+    "locationID": [
+        "LX280212_1",
+        "LX280212_0"
+    ],
+    "locationName": "",
+    "address": {
+        "addressLine1": "620 Fairground Road",
+        "cityName": "Front Royal",
+        "state": "VA",
+        "countryName": "United States",
+        "postalCodePrimary": 22630,
+        "postalCodeExtn": 6742,
+        "altShiptoAddressLine1": "620 Fairground Road",
+        "altShiptoCityName": "Front Royal",
+        "altShiptoState": "VA",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCodePrimary": 22630,
+        "altShiptoPostalCodeExtn": 6742
+    },
+    "districtId": [
+        "D000DA",
+        "D000DC"
+    ],
+    "calendarEventId": [
+        "50",
+        "51",
+        "52"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "540-636-1977"
+    ],
+    "latitude": 24.5741596,
+    "longitude": 101.236589,
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

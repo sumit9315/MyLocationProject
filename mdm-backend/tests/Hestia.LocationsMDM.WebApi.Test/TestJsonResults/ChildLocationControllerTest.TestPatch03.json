@@ -1,0 +1,168 @@
+{
+  "NodeId": "CH123452",
+  "Address": {
+    "AddressLine1": "111 E Buckeye Road",
+    "AddressLine2": "Suite 2",
+    "AddressLine3": "",
+    "CityName": "Phoenix",
+    "State": "AZ",
+    "CountryName": "United States",
+    "PostalCodePrimary": "85004",
+    "PostalCodeExtn": "2725",
+    "AltShiptoAddressLine1": "111 E Buckeye Road",
+    "AltShiptoAddressLine2": "Suite 2",
+    "AltShiptoAddressLine3": "",
+    "AltShiptoCityName": "Phoenix",
+    "AltShiptoState": "AZ",
+    "AltShiptoCountryName": "United States",
+    "AltShiptoPostalCode": "85004",
+    "AltShiptoPostalCodePrimary": null,
+    "AltShiptoPostalCodeExtn": "2725"
+  },
+  "FinancialData": [
+    {
+      "LobCc": "100100",
+      "LobCcName": "PHOENIX AZ",
+      "LobCcEffectiveDate": null,
+      "LobCcCloseDate": null
+    }
+  ],
+  "ProductOffering": [
+    "",
+    "",
+    ""
+  ],
+  "ValueAddedServices": [
+    "",
+    "",
+    ""
+  ],
+  "ServicesCertification": [
+    ""
+  ],
+  "LocationId": "LX280827_0",
+  "LocationName": "Phoenix AZ Campus",
+  "CampusLocationId": "CA00000100",
+  "CampusLocationName": "",
+  "OracleCompanyId": "1000",
+  "OracleCompanyName": "Ferguson Enterprises LLC",
+  "EinFederal": "541211771",
+  "LandingPageUrl": "",
+  "LocationPhoneNumbers": [
+    "313-599-4676",
+    "503-589-7397"
+  ],
+  "CustomerLocationName": "",
+  "DomLocationStatus": "",
+  "Latitude": "21.028899537440685",
+  "Longitude": "52.345121142978506",
+  "InventoryOrg": "1001",
+  "SalesSystem": "TRIL",
+  "CalendarEvents": [],
+  "BusinessInfo": {
+    "OpenForBusiness": false,
+    "OpenForPurchase": false,
+    "OpenForShipping": false,
+    "OpenForReceiving": false,
+    "ProPickUp": false,
+    "SelfCheckout": false,
+    "StaffPropickup": false,
+    "VisibleToWebsite": false,
+    "OpenForDisclosure": false
+  },
+  "OperatingHours": [
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 1,
+      "OperatingHours": {
+        "StartTime": "600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    },
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 2,
+      "OperatingHours": {
+        "StartTime": "0600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    },
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 3,
+      "OperatingHours": {
+        "StartTime": "0600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    },
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 4,
+      "OperatingHours": {
+        "StartTime": "0600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    },
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 5,
+      "OperatingHours": {
+        "StartTime": "0600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    },
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 6,
+      "OperatingHours": {
+        "StartTime": "0600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    },
+    {
+      "OperatingHoursId": "24",
+      "DayOfWeek": 0,
+      "OperatingHours": {
+        "StartTime": "0600",
+        "EndTime": "1600"
+      },
+      "AfterHours": "",
+      "ReceivingHours": "",
+      "EffectiveDate": "01/01/2019 00:00:00",
+      "EndDate": "12/31/2021 00:00:00",
+      "IsDaylightSaving": true
+    }
+  ],
+  "Contacts": [],
+  "LastUpdatedOn": "01/01/0001 00:00:00"
+}

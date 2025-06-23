@@ -1,0 +1,134 @@
+{
+  "apiResult": {
+    "StatusCode": 204
+  },
+  "updatedLocation": {
+    "NodeId": "CH123452",
+    "Address": {
+      "AddressLine1": "111 E Buckeye Road",
+      "AddressLine2": "Suite 2",
+      "AddressLine3": "",
+      "CityName": "Phoenix",
+      "State": "AZ",
+      "CountryName": "United States",
+      "PostalCodePrimary": "85004",
+      "PostalCodeExtn": "2725",
+      "AltShiptoAddressLine1": "111 E Buckeye Road",
+      "AltShiptoAddressLine2": "Suite 2",
+      "AltShiptoAddressLine3": "",
+      "AltShiptoCityName": "Phoenix",
+      "AltShiptoState": "AZ",
+      "AltShiptoCountryName": "United States",
+      "AltShiptoPostalCode": "85004",
+      "AltShiptoPostalCodePrimary": null,
+      "AltShiptoPostalCodeExtn": "2725"
+    },
+    "FinancialData": [
+      {
+        "LobCc": "100100",
+        "LobCcName": "PHOENIX AZ",
+        "LobCcEffectiveDate": null,
+        "LobCcCloseDate": null
+      }
+    ],
+    "ProductOffering": [
+      "",
+      "",
+      ""
+    ],
+    "ValueAddedServices": [
+      "",
+      "",
+      ""
+    ],
+    "ServicesCertification": [
+      ""
+    ],
+    "LocationId": "LX280827_0",
+    "LocationName": "Phoenix AZ Campus",
+    "CampusLocationId": "CA00000100",
+    "CampusLocationName": "",
+    "OracleCompanyId": "1000",
+    "OracleCompanyName": "Ferguson Enterprises LLC",
+    "EinFederal": "541211771",
+    "LandingPageUrl": "",
+    "LocationPhoneNumbers": [
+      "",
+      ""
+    ],
+    "CustomerLocationName": "",
+    "DomLocationStatus": "",
+    "Latitude": "101.236589",
+    "Longitude": "23.5741936",
+    "InventoryOrg": "1001",
+    "SalesSystem": "TRIL",
+    "CalendarEvents": [],
+    "BusinessInfo": {
+      "OpenForBusiness": false,
+      "OpenForPurchase": false,
+      "OpenForShipping": false,
+      "OpenForReceiving": false,
+      "ProPickUp": false,
+      "SelfCheckout": false,
+      "StaffPropickup": false,
+      "VisibleToWebsite": false,
+      "OpenForDisclosure": false
+    },
+    "OperatingHours": [
+      {
+        "OperatingHoursId": "01",
+        "DayOfWeek": 1,
+        "OperatingHours": {
+          "StartTime": "06:01",
+          "EndTime": "16:01"
+        },
+        "AfterHours": "No",
+        "ReceivingHours": "06:01-15:01",
+        "EffectiveDate": "01/11/2019 00:00:00",
+        "EndDate": "12/31/2020 00:00:00",
+        "IsDaylightSaving": false
+      },
+      {
+        "OperatingHoursId": "03",
+        "DayOfWeek": 3,
+        "OperatingHours": {
+          "StartTime": "06:03",
+          "EndTime": "16:03"
+        },
+        "AfterHours": "Yes",
+        "ReceivingHours": "06:03-15:03",
+        "EffectiveDate": "03/13/2019 00:00:00",
+        "EndDate": "12/31/2022 00:00:00",
+        "IsDaylightSaving": false
+      },
+      {
+        "OperatingHoursId": "05",
+        "DayOfWeek": 5,
+        "OperatingHours": {
+          "StartTime": "06:05",
+          "EndTime": "16:05"
+        },
+        "AfterHours": "No",
+        "ReceivingHours": "06:05-15:05",
+        "EffectiveDate": "05/15/2019 00:00:00",
+        "EndDate": "12/31/2024 00:00:00",
+        "IsDaylightSaving": false
+      },
+      {
+        "OperatingHoursId": "07",
+        "DayOfWeek": 7,
+        "OperatingHours": {
+          "StartTime": "06:07",
+          "EndTime": "16:07"
+        },
+        "AfterHours": "No",
+        "ReceivingHours": "06:07-15:07",
+        "EffectiveDate": "07/17/2019 00:00:00",
+        "EndDate": "12/31/2026 00:00:00",
+        "IsDaylightSaving": false
+      }
+    ],
+    "Contacts": [],
+    "LastUpdatedOn": "01/01/0001 00:00:00"
+  }
+}

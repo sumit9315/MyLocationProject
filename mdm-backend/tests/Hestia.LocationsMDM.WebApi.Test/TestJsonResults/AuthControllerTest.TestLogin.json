@@ -1,0 +1,44 @@
+{
+  "Issuer": "https://localhost:5001",
+  "Audiences": [
+    "https://localhost:5001"
+  ],
+  "Claims": [
+    {
+      "Issuer": "https://localhost:5001",
+      "OriginalIssuer": "https://localhost:5001",
+      "Properties": {},
+      "Subject": null,
+      "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+      "Value": "admin",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "https://localhost:5001",
+      "OriginalIssuer": "https://localhost:5001",
+      "Properties": {},
+      "Subject": null,
+      "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+      "Value": "Admin",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "https://localhost:5001",
+      "OriginalIssuer": "https://localhost:5001",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iss",
+      "Value": "https://localhost:5001",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "https://localhost:5001",
+      "OriginalIssuer": "https://localhost:5001",
+      "Properties": {},
+      "Subject": null,
+      "Type": "aud",
+      "Value": "https://localhost:5001",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  ]
+}

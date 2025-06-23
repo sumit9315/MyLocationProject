@@ -1,0 +1,70 @@
+{
+    "node": "CA00000100",
+    "partition_key": "campus",
+    "edmcsNode": [
+        "100000522",
+        "100000451",
+        "100001097",
+        "100002335",
+        "100002369",
+        "100002370",
+        "100002371",
+        "100002372",
+        "100002373",
+        "100002374",
+        "100000417",
+        "100001450",
+        "100000960",
+        "100001011",
+        "100001113"
+    ],
+    "locationID": [
+        "LX280827_0",
+        "LX280827_1",
+        "LX280827_2"
+    ],
+    "locationName": "",
+    "address": {
+        "addressLine1": "111 E Buckeye Road",
+        "cityName": "Phoenix",
+        "state": "AZ",
+        "countryName": "United States",
+        "postalCodePrimary": 85004,
+        "postalCodeExtn": "",
+        "altShiptoAddressLine1": "111 E Buckeye Road",
+        "altShiptoCityName": "Phoenix",
+        "altShiptoState": "AZ",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCodePrimary": 85004,
+        "altShiptoPostalCodeExtn": ""
+    },
+    "districtId": [
+        "D00002",
+        "D00065",
+        "D00051"
+    ],
+    "associateId": [
+        "2007202",
+        "2012019"
+    ],
+    "calendarEventId": [
+        "50",
+        "51",
+        "52"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "602-495-8300"
+    ],
+    "latitude": 23.5741936,
+    "longitude": 101.236589,
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

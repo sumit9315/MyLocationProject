@@ -1,0 +1,228 @@
+{
+  "apiResult": {
+    "StatusCode": 204
+  },
+  "updatedLocation": {
+    "NodeId": "CH123452",
+    "Address": {
+      "AddressLine1": "111 E Buckeye Road",
+      "AddressLine2": "Suite 2",
+      "AddressLine3": "",
+      "CityName": "Phoenix",
+      "State": "AZ",
+      "CountryName": "United States",
+      "PostalCodePrimary": "85004",
+      "PostalCodeExtn": "2725",
+      "AltShiptoAddressLine1": "111 E Buckeye Road",
+      "AltShiptoAddressLine2": "Suite 2",
+      "AltShiptoAddressLine3": "",
+      "AltShiptoCityName": "Phoenix",
+      "AltShiptoState": "AZ",
+      "AltShiptoCountryName": "United States",
+      "AltShiptoPostalCode": "85004",
+      "AltShiptoPostalCodePrimary": null,
+      "AltShiptoPostalCodeExtn": "2725"
+    },
+    "FinancialData": [
+      {
+        "LobCc": "100100",
+        "LobCcName": "PHOENIX AZ",
+        "LobCcEffectiveDate": null,
+        "LobCcCloseDate": null
+      }
+    ],
+    "ProductOffering": [
+      "",
+      "",
+      ""
+    ],
+    "ValueAddedServices": [
+      "",
+      "",
+      ""
+    ],
+    "ServicesCertification": [
+      ""
+    ],
+    "LocationId": "LX280827_0",
+    "LocationName": "Phoenix AZ Campus",
+    "CampusLocationId": "CA00000100",
+    "CampusLocationName": "",
+    "OracleCompanyId": "1000",
+    "OracleCompanyName": "Ferguson Enterprises LLC",
+    "EinFederal": "541211771",
+    "LandingPageUrl": "",
+    "LocationPhoneNumbers": [
+      "",
+      ""
+    ],
+    "CustomerLocationName": "",
+    "DomLocationStatus": "",
+    "Latitude": "101.236589",
+    "Longitude": "23.5741936",
+    "InventoryOrg": "1001",
+    "SalesSystem": "TRIL",
+    "CalendarEvents": [
+      {
+        "EventId": "00000000-0000-0000-0000-000000000000",
+        "EventName": "New Year Event",
+        "EventStart": {
+          "Month": 11,
+          "DayOfMonth": 31,
+          "DayOfWeek": null,
+          "OrdinalInMonth": null
+        },
+        "EventEnd": {
+          "Month": 0,
+          "DayOfMonth": 1,
+          "DayOfWeek": null,
+          "OrdinalInMonth": null
+        },
+        "StartTime": {
+          "Hour": 18,
+          "Minute": 45
+        },
+        "EndTime": {
+          "Hour": 23,
+          "Minute": 30
+        },
+        "Frequency": "Yearly",
+        "EventTime": "All Day",
+        "DaylightSavings": true
+      },
+      {
+        "EventId": "00000000-0000-0000-0000-000000000000",
+        "EventName": "Black Friday",
+        "EventStart": {
+          "Month": 10,
+          "DayOfMonth": null,
+          "DayOfWeek": 5,
+          "OrdinalInMonth": 4
+        },
+        "EventEnd": {
+          "Month": 11,
+          "DayOfMonth": null,
+          "DayOfWeek": 1,
+          "OrdinalInMonth": 1
+        },
+        "StartTime": {
+          "Hour": 10,
+          "Minute": 0
+        },
+        "EndTime": {
+          "Hour": 19,
+          "Minute": 0
+        },
+        "Frequency": "Yearly",
+        "EventTime": "Few Days",
+        "DaylightSavings": false
+      }
+    ],
+    "BusinessInfo": {
+      "OpenForBusiness": false,
+      "OpenForPurchase": false,
+      "OpenForShipping": false,
+      "OpenForReceiving": false,
+      "ProPickUp": false,
+      "SelfCheckout": false,
+      "StaffPropickup": false,
+      "VisibleToWebsite": false,
+      "OpenForDisclosure": false
+    },
+    "OperatingHours": [
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 1,
+        "OperatingHours": {
+          "StartTime": "600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      },
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 2,
+        "OperatingHours": {
+          "StartTime": "0600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      },
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 3,
+        "OperatingHours": {
+          "StartTime": "0600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      },
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 4,
+        "OperatingHours": {
+          "StartTime": "0600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      },
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 5,
+        "OperatingHours": {
+          "StartTime": "0600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      },
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 6,
+        "OperatingHours": {
+          "StartTime": "0600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      },
+      {
+        "OperatingHoursId": "24",
+        "DayOfWeek": 0,
+        "OperatingHours": {
+          "StartTime": "0600",
+          "EndTime": "1600"
+        },
+        "AfterHours": "",
+        "ReceivingHours": "",
+        "EffectiveDate": "01/01/2019 00:00:00",
+        "EndDate": "12/31/2021 00:00:00",
+        "IsDaylightSaving": true
+      }
+    ],
+    "Contacts": [],
+    "LastUpdatedOn": "01/01/0001 00:00:00"
+  }
+}

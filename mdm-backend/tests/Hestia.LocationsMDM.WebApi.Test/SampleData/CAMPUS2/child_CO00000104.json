@@ -1,0 +1,223 @@
+{
+    "childLocationId": "CO00000104",
+    "locationName": "Reno NV - Waterworks",
+    "locationType": "Counter",
+    "partition_key": "childLoc",
+    "regionNodeId": "RG0000006",
+    "areaID": "WWWE02",
+    "areaName": "WW Northern California",
+    "districtID": "D00051",
+    "districtName": "D51 Waterworks West",
+    "lobId": "WATERW",
+    "lobDescription": "Total Waterworks",
+    "costOrg": "TBD",
+    "oracleCompanyID": 1000,
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "workdayCompanyID": 874,
+    "einFederal": 541211771,
+    "currency": "USD",
+    "locationEffectiveDate": "4/25/2017",
+    "locationCloseDate": "",
+    "salesSystem": "TRIL",
+    "notes": "Share with 0726 Fire & 3210 Blended",
+    "lobCc": 192700,
+    "lobCcName": "RENO NV - WW",
+    "ccType": 1,
+    "locationStatus": "O",
+    "inventoryOrg": 1927,
+    "costCenterID": 1927,
+    "edmcsNode": 100000995,
+    "regionID": "WWTOTL",
+    "regionName": "Waterworks",
+    "locationID": "LX301420_1",
+    "address": {
+        "addressLine1": "1095 S Rock Boulevard",
+        "addressLine2": "",
+        "addressLine3": "",
+        "cityName": "Reno",
+        "state": "NV",
+        "countryName": "United States",
+        "postalCodePrimary": "89502",
+        "postalCodeExtn": "7156",
+        "altShiptoAddressLine1": "1095 S Rock Boulevard",
+        "altShiptoAddressLine2": "",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Reno",
+        "altShiptoState": "NV",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": "89502",
+        "altShipToPostalCodeExtn": "7156"
+    },
+    "glbuID": 1423,
+    "glbuName": "Northern Cal - WW",
+    "inspyrusOU": 1423,
+    "trilogieLogon": "ROSUG",
+    "trilogieAlias": "Nocal_Waterworks",
+    "bmi": "",
+    "counter": "Y",
+    "intercoSales": "",
+    "showroom": "",
+    "legacyDistrictID": 51,
+    "legacyDistrictName": "D51 Waterworks West",
+    "pbuID": "06_WW",
+    "pbuName": "Waterworks",
+    "cpbuID": "WATERWORKS",
+    "cpbuDescription": "Waterworks",
+    "ccoEmplId": 503972,
+    "lobCcOwnerName": "Dan Warner",
+    "operatingHours": [
+        {
+            "operatingHoursID": 24,
+            "day": "Monday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Tuesday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Wednesday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Thursday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Friday",
+            "openHour": "6:00",
+            "closeHour": "15:30",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Saturday",
+            "openHour": "8:00",
+            "closeHour": "13:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Sunday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        }
+    ],
+    "associateId": [
+        "2011926",
+        "2011927"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contacts": "",
+    "productOffering": [
+        "Pipes",
+        "Plumbing",
+        "HVAC"
+    ],
+    "customerFacingLocationName": "",
+    "domLocationStatus": "",
+    "proPickup": "N",
+    "proPickupDuration": "",
+    "selfCheckout": "N",
+    "staffUnStaffProPickup": "N",
+    "openforBusinessFlag": "Y",
+    "openforPurchaseFlag": "Y",
+    "openforShipping": "Y",
+    "openforReceiving": "Y",
+    "openforPublicDiscloure": "Y",
+    "visibletoWebsitesFlag": [
+        {
+            "website": "ferguson.com",
+            "visible": "Y"
+        }
+    ],
+    "timeZoneIdentifier": "EST",
+    "isoCertified": "Y",
+    "fabricationShop": "N",
+    "locationPhoneNumber": [
+        "775-358-5095"
+    ],
+    "locationWebsiteURL": "",
+    "locationLandingPageURL": "https://www.ferguson.com/branch/1095-s-rock-blvd-reno-nv-firefab",
+    "locationLogos": "",
+    "closureMessage": "",
+    "afterHours": "N",
+    "equipmentFlag": [
+        {
+            "equipment": "HVAC",
+            "flag": "Y"
+        }
+    ],
+    "associations": [
+        {
+            "businessName": "showroom",
+            "associationName": "NRAI"
+        }
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "lobCcEffDate": "2019-02-28 T00:00:04",
+    "lobCcCloseDate": "",
+    "lobCcStatus": "Open",
+    "servicesAndCertification": [
+        "ISO Certified Fabrication"
+    ],
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

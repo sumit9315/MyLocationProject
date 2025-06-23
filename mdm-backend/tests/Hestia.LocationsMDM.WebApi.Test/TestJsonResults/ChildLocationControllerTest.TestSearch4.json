@@ -1,0 +1,30 @@
+{
+  "TotalCount": 1,
+  "Items": [
+    {
+      "Id": "CH123451",
+      "Name": "Phoenix AZ Campus",
+      "Address": {
+        "AddressLine1": "111 E Buckeye Road",
+        "AddressLine2": "Suite 2",
+        "AddressLine3": "",
+        "CityName": "Phoenix",
+        "State": "AZ",
+        "CountryName": "United States",
+        "PostalCodePrimary": "85004",
+        "PostalCodeExtn": "2725",
+        "AltShiptoAddressLine1": "111 E Buckeye Road",
+        "AltShiptoAddressLine2": "Suite 2",
+        "AltShiptoAddressLine3": "",
+        "AltShiptoCityName": "Phoenix",
+        "AltShiptoState": "AZ",
+        "AltShiptoCountryName": "United States",
+        "AltShiptoPostalCode": "85004",
+        "AltShiptoPostalCodePrimary": null,
+        "AltShiptoPostalCodeExtn": "2725"
+      },
+      "GlbuName": "Southwest",
+      "LocationType": "Counter"
+    }
+  ]
+}

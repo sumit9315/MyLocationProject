@@ -1,0 +1,64 @@
+{
+    "node": "RG0000006",
+    "partition_key": "region",
+    "edmcsNode": [
+        "100001450",
+        "100000960",
+        "100001011",
+        "100001113"
+    ],
+    "campusNodeId": "CA00000100",
+    "oracleCompanyID": 1000,
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "salesSystem": "TRIL",
+    "address": {
+        "addressLine1": "111 E Buckeye Road",
+        "addressLine2": "Suite 5",
+        "addressLine3": "",
+        "cityName": "Phoenix",
+        "state": "AZ",
+        "countryName": "United States",
+        "postalCodePrimary": 85004,
+        "postalCodeExtn": 8725,
+        "altShiptoAddressLine1": "111 E Buckeye Road",
+        "altShiptoAddressLine2": "Suite 5",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Phoenix",
+        "altShiptoState": "AZ",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": 85004,
+        "altShipToPostalCodeExtn": 8725
+    },
+    "regionID": "WWTOTL",
+    "regionName": "Waterworks",
+    "pbuID": "06_WW",
+    "pbuName": "Waterworks",
+    "districtId": [
+        "D00051"
+    ],
+    "associateId": [
+        "2007202",
+        "2012019"
+    ],
+    "calendarEventId": [
+        "45",
+        "46",
+        "47"
+    ],
+    "contactPhoneNumber": "",
+    "contactEmail": "",
+    "openforBusinessFlag": "",
+    "openforPublicDiscloure": "",
+    "timeZoneIdentifier": "EST",
+    "locationPhoneNumber": [
+        "602-495-8505"
+    ],
+    "longitude": 23.5741936,
+    "latitude": 101.236589,
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072020",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:00",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}

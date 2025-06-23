@@ -1,0 +1,223 @@
+{
+    "childLocationId": "OY00001001",
+    "locationName": "Front Royal VA Pipeyard",
+    "locationType": "Outside Storage Yard",
+    "partition_key": "childLoc",
+    "regionNodeId": "RG0000007",
+    "areaID": "PY5422",
+    "areaName": "Regional Pipe  Front Royal Va - Pipeyard",
+    "districtID": "D000DC",
+    "districtName": "DDC Regional Pipe Yards",
+    "lobId": "NOBRAN",
+    "lobDescription": "Total Non Branch Business Units",
+    "costOrg": "TBD",
+    "oracleCompanyID": "1000",
+    "oracleCompanyName": "Ferguson Enterprises LLC",
+    "workdayCompanyID": "874",
+    "einFederal": "541211771",
+    "currency": "USD",
+    "locationEffectiveDate": "2018-01-08 00:00:00",
+    "locationCloseDate": "",
+    "salesSystem": "TRIL",
+    "notes": "Share with 0423; REPLACE 0422",
+    "lobCc": "542200",
+    "lobCcName": "FRONT ROYAL VA - PIPEYARD",
+    "ccType": "1",
+    "locationStatus": "O",
+    "inventoryOrg": "6422",
+    "costCenterID": "5422",
+    "edmcsNode": "100001938",
+    "regionID": "DISTRB",
+    "regionName": "Distribution Center BUS",
+    "locationID": "LX280212_1",
+    "address": {
+        "addressLine1": "620 Fairground Road",
+        "addressLine2": "",
+        "addressLine3": "",
+        "cityName": "Front Royal",
+        "state": "VA",
+        "countryName": "United States",
+        "postalCodePrimary": "22630",
+        "postalCodeExtn": 6742,
+        "altShiptoAddressLine1": "620 Fairground Road",
+        "altShiptoAddressLine2": "",
+        "altShiptoAddressLine3": "",
+        "altShiptoCityName": "Front Royal",
+        "altShiptoState": "VA",
+        "altShiptoCountryName": "United States",
+        "altShiptoPostalCode": "22630",
+        "altShipToPostalCodeExtn": 6742
+    },
+    "glbuID": "5400",
+    "glbuName": "Regional Pipe Hubs",
+    "inspyrusOU": "5400",
+    "trilogieLogon": "PIPE",
+    "trilogieAlias": "",
+    "bmi": "",
+    "counter": "",
+    "intercoSales": "",
+    "showroom": "",
+    "legacyDistrictID": "98",
+    "legacyDistrictName": "D98 Dist &  Pipe",
+    "pbuID": "14_DC",
+    "pbuName": "Distribution",
+    "cpbuID": "NON_BRCH",
+    "cpbuDescription": "Non Branch Business Units",
+    "ccoEmplId": "2005024",
+    "lobCcOwnerName": "Jeffery Sonnenberg",
+    "operatingHours": [
+        {
+            "operatingHoursID": 24,
+            "day": "Monday",
+            "openHour": "06:00:00",
+            "closeHour": "19:00:00",
+            "hourEffectiveDate": "",
+            "hourEndDate": "",
+            "dayLightSavingFlag": "",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Tuesday",
+            "openHour": "06:00:00",
+            "closeHour": "19:00:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Wednesday",
+            "openHour": "06:00:00",
+            "closeHour": "19:00:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Thursday",
+            "openHour": "06:00:00",
+            "closeHour": "19:00:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Friday",
+            "openHour": "06:00:00",
+            "closeHour": "19:00:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Saturday",
+            "openHour": "08:00:00",
+            "closeHour": "13:00:00",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        },
+        {
+            "operatingHoursID": 24,
+            "day": "Sunday",
+            "openHour": "closed",
+            "closeHour": "closed",
+            "hourEffectiveDate": "2019-01-01 T00:00:00",
+            "hourEndDate": "2021-12-31 T00:00:00",
+            "dayLightSavingFlag": "Y",
+            "afterHoursFlag": "",
+            "afterHours": "",
+            "receivingHours": ""
+        }
+    ],
+    "associateId": [
+        "2011962",
+        "2011963"
+    ],
+    "calendarEventId": [
+        "50",
+        "51",
+        "53"
+    ],
+    "contacts": "",
+    "productOffering": [
+        "Pipes",
+        "Plumbing",
+        "HVAC"
+    ],
+    "customerFacingLocationName": "",
+    "domLocationStatus": "",
+    "proPickup": "N",
+    "proPickupDuration": "",
+    "selfCheckout": "N",
+    "staffUnStaffProPickup": "N",
+    "openforBusinessFlag": "Y",
+    "openforPurchaseFlag": "Y",
+    "openforShipping": "Y",
+    "openforReceiving": "Y",
+    "openforPublicDiscloure": "Y",
+    "visibletoWebsitesFlag": [
+        {
+            "website": "ferguson.com",
+            "visible": "Y"
+        }
+    ],
+    "timeZoneIdentifier": "EST",
+    "isoCertified": "Y",
+    "fabricationShop": "N",
+    "locationPhoneNumber": [
+        "540-636-1977"
+    ],
+    "locationWebsiteURL": "www.ferguson.com",
+    "locationLandingPageURL": "",
+    "locationLogos": "",
+    "closureMessage": "N",
+    "afterHours": "",
+    "equipmentFlag": [
+        {
+            "equipment": "HVAC",
+            "flag": "Y"
+        }
+    ],
+    "associations": [
+        {
+            "businessName": "showroom",
+            "associationName": "NRAI"
+        }
+    ],
+    "longitude": 24.5741596,
+    "latitude": 101.5623598,
+    "lobCcEffDate": "2019-02-28 T00:00:01",
+    "lobCcCloseDate": "",
+    "lobCcStatus": "Open",
+    "servicesAndCertification": [
+        "ISO Certified Fabrication"
+    ],
+    "recSource": "EDMCS",
+    "recSourceFile": "EDMCS_07072021",
+    "recStatus": "Active",
+    "recEffDt": "2019-02-28 T00:00:01",
+    "recExpDt": "",
+    "recCreatedBy": "Loc Admin"
+}
