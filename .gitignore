@@ -1,0 +1,12 @@
+# Ignore Visual Studio build files
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+.vscode/
+.env
+.idea/
+*.db
+
